@@ -13,11 +13,6 @@ public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(Context context, int version) {
         super(context, DATABASE_NAME, null, version);
     }
-/*
-    public DBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
-    }
-*/
 
     @Override
     public void onCreate(SQLiteDatabase db) {
