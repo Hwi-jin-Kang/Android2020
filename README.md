@@ -3,7 +3,7 @@
 
 ### 주요 코드
 
-#### DBHelper.java
+#### DBHelper.java (위치 : ./MyApplication2/app/src/main/java/com/inhatc/myapplication/)
     package com.inhatc.myapplication;
 
 
@@ -33,7 +33,7 @@
 
     }
 
-#### MainActivity.java
+#### MainActivity.java (위치 : ./MyApplication2/app/src/main/java/com/inhatc/myapplication/)
     package com.inhatc.myapplication;
 
     import androidx.appcompat.app.AppCompatActivity;
@@ -142,7 +142,7 @@
     }
 
 }
-#### SubActivity.java
+#### SubActivity.java (위치 : ./MyApplication2/app/src/main/java/com/inhatc/myapplication/)
     package com.inhatc.myapplication;
 
 
@@ -218,7 +218,7 @@
 
 }
 
-#### activity_main.xml
+#### activity_main.xml (위치 : ./MyApplication2/app/src/main/res/layout/)
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -310,7 +310,7 @@
         android:text="목 록 보 기" />
     </LinearLayout>
     
-#### activity_sub.xml
+#### activity_sub.xml (위치 : ./MyApplication2/app/src/main/res/layout/)
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
